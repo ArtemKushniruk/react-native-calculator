@@ -7,14 +7,14 @@ const Button = (props) => {
       alignItems: "center",
       justifyContent: "center",
       backgroundColor: props.backgroundColor,
-      width: 90,
-      height: 90,
+      width: props.width,
+      height: props.height,
       borderRadius: 45,
       margin: 5,
       flex: props.style
     },
     text: {
-      fontSize: 40,
+      fontSize: props.fontSize,
       color: props.color,
       backgroundColor: props.backgroundColor,
     },
